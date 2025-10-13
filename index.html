@@ -1,52 +1,86 @@
-<!doctype html>
-<html lang="en"> 
-<html>
-
- <head>
-   <link rel="stylesheet" type="text/css" href="style/style.css">
-   <meta http-equiv="Content-Security-Policy" content="script-src 'none'">
-   <meta name="description" content="The DossTones">
-   <meta name="keywords" content="The DossTones">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta charset="UTF-8">
-   <title>The Dosstones</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Springwater Book Club</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    text-align: center;
+  }
+  .book-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+  }
+  .book-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  img {
+    max-width: 200px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+  }
+  .buy-text {
+    max-width: 300px;
+    text-align: left;
+  }
+  ul {
+    list-style-position: inside;
+    text-align: left;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8LNLQNQE04"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<body>
+  <h1>Springwater Book Club</h1>
+  <p>Date: [Insert date here]</p>
+  <p>Time: [Insert time here]</p>
+  <p>Book for this meeting: <strong>My Name is Porman Dedman</strong> by Phillip Doss</p>
 
-  gtag('config', 'G-8LNLQNQE04');
-</script>
+  <div class="book-section">
+    <div class="book-info">
+      <a href="https://www.amazon.com/dp/B08DC1Z8WV/" target="_blank" rel="noopener noreferrer">
+        <img src="bookcover.jpg" alt="Book cover: My Name is Porman Dedman">
+      </a>
+      <div class="buy-text">
+        <p><strong>Click the book cover</strong> or <a href="https://www.amazon.com/dp/B08DC1Z8WV/" target="_blank" rel="noopener noreferrer">this link</a> to purchase <em>My Name is Porman Dedman</em> on Amazon.</p>
+      </div>
+    </div>
+  </div>
 
-<body>  
-<div> <!-- division 1-->
-  <img src="bookcover.jpg" alt="My Name is Porman Dedman"
-       style="float: left; margin-right: 15px; width: 121px;">
-<b> Springwater Book Club </b><br><br>
-Date:<br>
-Time:<br><br>
-Book for this meeting: My Name is Porman Dedman, by Phillip Doss<br>
-Available from Amazon, see link below.<br><br>
-We will start with general comments about the book, then proceed to
-discussion topics.<br><br>
-Discussion Topics <br>
-Friendship: What is it? Who's involved?<br>
-Family: What is it? Who's involved?<br>
-Music & Music Business: How do they relate? <br>
-Drummers: Why is Greer's Shakespeare quote funny? <br>
-Grief: How does Dedman handle it? <br>
-Book ending: What? <br>
-For those of you who want to hang around after the book club meeting, “Insert Band/Event
-name here” will be playing. There's always a chance Marshall Leed will show up. <br>
-Link to book order page. <br>
-<a href="https://www.amazon.com/dp/B08DC1Z8WV/ref=sr_1_1?
-keywords=My+Name+is+Porman+Dedman&qid=1595508485&s=books&sr=1-
-1&fbclid=IwAR2tbcPUu50AkZMDJhuNzUoKVEYnAXzvod31lEaWj8hQaWuEnZciFg45DtQ">My Name is Porman Dedman</a>
+  <p>We will start with general comments about the book, then proceed to discussion topics.</p>
 
-</div>                  
+  <h2>Discussion Topics</h2>
+  <ul>
+    <li><strong>Friendship:</strong> What is it? Who’s involved?</li>
+    <li><strong>Family:</strong> What is it? Who’s involved?</li>
+    <li><strong>Music & Music Business:</strong> How do they relate?</li>
+    <li><strong>Drummers:</strong> Why is Greer’s Shakespeare quote funny?</li>
+    <li><strong>Grief:</strong> How does Dedman handle it?</li>
+    <li><strong>Book ending:</strong> What?</li>
+  </ul>
 
-
-</body> 
+  <p>
+  After the meeting: For those who want to hang around,
+  <em>[Insert band/event name]</em> will be playing.
+  There’s always a chance Marshall Leed will show up.
+</p>
+</body>
+</html>
